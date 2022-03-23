@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    font-family: 'PT Mono', monospace;
+}
+/*Utilities*/
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Header*/
+div.hero{
+    background-image: url(img/roland-denes-beprhhF780E-unsplash\ \(1\).jpg);
+    height: 60vh;
+    background-position: center center;
+    background-size: cover cover;
+
+}
+div.header-content{
+    padding-top: 4rem;
+}
+nav.social-media{
+    text-align: center;
+}
+nav.social-media a{
+    color: darkgoldenrod;
+    font-size: 4rem;
+    margin-right: 2rem;
+}
+h1{
+    font-size: 11vh;
+    text-transform: uppercase;
+    color: darkgoldenrod;
+    text-shadow: 0 0 3px black;
+    text-align: center;
+}
+p.slogan{
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 8vh;
+}
+div.information div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p.city,p.date{
+    margin-top: 20px;
+    color: darkgoldenrod;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+p.city i,p.date i{
+    margin-right: 1rem;
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+.nav-bar{
+    background-color: teal;
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+nav.menu a{
+    color: darkgoldenrod;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    margin: 0 10px 0 0;
+
+}
+.container h4{
+    text-transform: uppercase;
+    font-family: 'PT Mono', monospace;
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+    color: darkgoldenrod;
+    margin-bottom: 2rem;
+}
+
+ul{
+    text-transform: uppercase;
+    font-family: 'PT Mono', monospace;
+    font-size: 2rem;
+    text-align:center;
+    color: darkgoldenrod;
+    justify-content: center;
+    list-style: inside;
+}
+li{
+    margin: 5px;
+    text-align: center;
+}
+p{
+    color: darkgoldenrod;
+    font-size: 2rem;
+}
+.info{
+    text-transform: uppercase;
+    font-family: 'PT Mono', monospace;
+    font-size: 2rem;
+    text-align:center;
+    color: darkgoldenrod; 
+}
+.info h5{
+    margin-bottom: 2rem;
+}
